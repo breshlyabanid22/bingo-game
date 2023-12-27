@@ -1,0 +1,86 @@
+
+.btn{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-wrap: nowrap;
+
+}
+.label{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.getCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2B3943;
+  height: 100vh;
+}
+.getCard p{
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn2{
+  padding-left:30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: large;
+}
+.btn-distance{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.bingo-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #C68A1C;
+}
+.cardBtn{
+  width: 70px;
+  height: 70px;
+  margin: 2px;
+  font-size: large;
+  border: none;
+}
+.cardBtn.active {
+  background-color: #C68A1C; /* Green background for active state */
+  color: white; /* White text for active state */
+}
+table{
+  background-color: #244075;
+  margin: 20px;
+  padding: 10px;
+  
+}
+th{
+  padding: 10px;
+  font-size: 50px;
+  font-weight: 1000;
+  color: #A4CDCD;
+}
+.alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f44336; /* Red background color */
+  color: white; /* Text color */
+  padding: 15px; /* Padding around the text */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
